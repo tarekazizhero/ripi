@@ -1,0 +1,274 @@
+
+
+body { 
+    background-color:white;
+  font-family: Arial;
+  margin: 0;
+  
+}
+h5{
+  float: right;
+   font-size: 20px;
+   margin-right: 20px;
+   
+}
+h4{
+    text-align:center;
+    color: navy;
+}
+
+
+
+
+
+/* menubar css start*/
+
+*{
+  
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  
+  font-family: montserrat;
+
+}
+nav{
+  background: rgb(104, 50, 51);
+  height: 100px;
+  width: 100%;
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 5px;
+}
+nav ul li{
+  display: inline-block;
+  line-height:45px;
+  margin:0 5px;
+  
+}
+nav ul li a{
+  color: rgb(253, 247, 247);
+  font-size: 16px;
+  padding: 5PX;
+  border-radius:3px;
+  /* text-transform: uppercase; */
+  text-decoration: none;
+
+}
+a.active, a:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 38px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin: 40px; 
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+
+
+}
+@media (max-width:952px){
+  label.logo{
+      font-size: 30px;
+      padding-left: 50px;
+  }
+  nav ul li a{
+      font-size: 16px;
+  }
+}
+@media (max-width:858px){
+  .checkbtn{
+      display: block;
+  }
+  ul{
+      position: fixed;
+      width: 45%;
+      height: 45vh;
+      background: #2c3e50;
+      top: 80px;
+      left: -100%;
+      text-align: left;
+      transition: all .5s;
+      
+  }
+  nav ul li{
+      display: block;
+      padding: 5px;
+      line-height: 30px;
+
+  }
+  nav ul li a{
+    
+      font-size: 20px;
+
+  }
+  a:hover,a.active{
+      background: none;
+      color: #0082e6;
+  }
+  #check:checked ~ ul{
+      left: 0;
+  }
+}
+
+
+/* menubar css stop*/
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+/* footer css start*/
+footer{
+
+    background-color: rgb(104, 50, 51);
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: white;
+    height: 250px;
+    line-height: 30px;
+}
+
+.icon i{
+  font-size: 35px;
+  position: relative;
+  top: -5px;
+  padding: 5px;
+}
+.copy{
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  line-height: 50px;
+}
+.address{
+  margin-top: -80px;
+  float: left;
+}
+.devloper{
+  float: right;
+  
+
+}
+.devloper i{
+  
+  font-size: 35px;
+}
+
+/* footer css end*/
