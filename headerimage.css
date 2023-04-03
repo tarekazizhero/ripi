@@ -242,7 +242,7 @@ footer{
     width: 100%;
     color: white;
     height: 250px;
-    line-height: 30px;
+    line-height: 10px;
 }
 
 .icon i{
@@ -270,5 +270,6 @@ footer{
   
   font-size: 35px;
 }
+
 
 /* footer css end*/

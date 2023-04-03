@@ -66,7 +66,7 @@
      
         <?php
 
-        $con = mysqli_connect('localhost','root','','aziz');
+        $con = mysqli_connect('sql201.epizy.com','epiz_33908504','ePDt7kxaWvyx','epiz_33908504_aziz');
         
         
         $pic = mysqli_query($con,"SELECT * FROM `sblcard`");
@@ -77,7 +77,7 @@
                 <td>$row[Name]</td>
                 <td>$row[Contact]</td>
                 <td><img src='$row[Image]'  width = '200px'  height = '200px'></td>
-                <td><a href='delete1.php? Id= $row[Id]' class = 'btn btn-danger'>Delete</a></td>
+                
                
                 <td></td>
                 

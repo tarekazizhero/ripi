@@ -3,7 +3,7 @@
 
 <?php
     session_start();
-    $conn=new mysqli('localhost','root','','aziz');
+    $conn=new mysqli('sql201.epizy.com','epiz_33908504','ePDt7kxaWvyx','epiz_33908504_aziz');
 
     $empty_email=$empty_password='';
 
@@ -100,7 +100,7 @@
                         <button class="btn btn-success" name="submit">Login</button>
                     </div>
                 </form>
-                <h5>Not have an account <a href="user.php">Register</a> </h5>
+                <h5>Not have an account? <a href="user.php">Register</a> </h5>
 
             </div>
 

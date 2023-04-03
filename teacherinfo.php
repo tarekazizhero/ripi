@@ -17,34 +17,21 @@
 
 </head>
 <body>
-        <center>
-            <p>Added Instructor Information</p>
-        <div class="main">
-        <form action="insert.php" method="POST" enctype="multipart/form-data" >
-        <label for="">Name:</label>
-        <input type="text" name="name"><br>
-        <label for="">Contact :</label>
-        <input type="text" name="Contact" id=""><br>
-        <label for="">Image:</label>
-        <input type="file" name="image" id=""><br>
-        <button type="submit" name="upload">Upload</button>
+     <center>
+         <p>Added Instructor Information</p>
+         <div class="main">
+             <form action="insert.php" method="POST" enctype="multipart/form-data" >
+                <label for="">Name:</label>
+                <input type="text" name="name"><br>
+                <label for="">Contact :</label>
+                <input type="text" name="Contact" id=""><br>
+                <label for="">Image:</label>
+                <input type="file" name="image" id=""><br>
+                <button type="submit" name="upload">Upload</button>
 
-        </form>
-    </div>
-        </center>
-<!-- <center>
-        <div class="main">
-        <form action="insert.php" method="POST" enctype="multipart/form-data" >
-        <label for="">Name:</label>
-        <input type="text" name="name"><br>
-        <label for="">Contact :</label>
-        <input type="text" name="Contact" id=""><br>
-        <label for="">Image:</label>
-        <input type="file" name="image" id=""><br>
-        <button type="submit" name="upload">Upload</button>
+              </form>
+           </div>
+     </center>
 
-        </form>
-    </div>
-        </center> -->
 </body>
 </html>

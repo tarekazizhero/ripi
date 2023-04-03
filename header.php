@@ -26,7 +26,7 @@
             
         <h1 > <b> Ranisankail Ideal Polytechnic Institute</b> </h1>
         <h1 > <b>রাণীশংকৈল আইডিয়াল পলিটেকনিক ইনস্টিটিউট</b> </h1>
-        <h5 ><b>College EIIN:12143</b></h5>
+        <h5 ><b>College Code:12143</b></h5>
         </div>
     </div>
 
@@ -41,12 +41,12 @@
         </label>
         
         <ul>
-        <li><a class="active" href="index.php">Home</a></li>
+            <li><a class="active" href="index.php">Home</a></li>
             <li><a href="teacherinfoShow.php">Instructors</a></li>
             <li><a href="login.php">Student Login</a></li>
-            <li><a href="user.php">Student Registration</a></li>
+            
             <li><a href="notice.php">Notice</a></li>
-            <li><a href="admission.php">Admission</a></li>
+            
             <li><a href="stdinfoShow.php">Students details</a></li>
             <li><a href="admin.php">Admin</a></li>
         </ul>

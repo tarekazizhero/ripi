@@ -22,6 +22,7 @@
     margin-top: 50px ;
     padding: 50px;
     box-shadow: 10px 10px 10px 10px gray;
+    width:100%;
 }
  </style>
 
@@ -53,7 +54,7 @@
       <th scope="col">Name</th>
       <th scope="col">Contact</th>
       <th scope="col">Image</th>
-      <th scope="col">Delete</th>
+      
       
       
      
@@ -67,7 +68,7 @@
      
         <?php
 
-        $con = mysqli_connect('localhost','root','','aziz');
+        $con = mysqli_connect('sql201.epizy.com','epiz_33908504','ePDt7kxaWvyx','epiz_33908504_aziz');
         
         
         $pic = mysqli_query($con,"SELECT * FROM `tblcard`");
@@ -78,7 +79,7 @@
                 <td>$row[Name]</td>
                 <td>$row[Contact]</td>
                 <td><img src='$row[Image]'  width = '200px'  height = '200px'></td>
-                <td><a href='delete.php? Id= $row[Id]' class = 'btn btn-danger'>Delete</a></td>
+                
                
                 <td></td>
                 

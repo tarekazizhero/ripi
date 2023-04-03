@@ -5,7 +5,7 @@
 
 //connect mysql
 
-    $conn=new mysqli('localhost','root','','aziz');
+    $conn=new mysqli('sql201.epizy.com','epiz_33908504','ePDt7kxaWvyx','epiz_33908504_aziz');
     
 
 

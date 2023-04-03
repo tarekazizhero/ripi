@@ -3,7 +3,7 @@
 
 <?php
 session_start();
-$conn=new mysqli('localhost','root','','aziz');
+$conn=new mysqli('sql201.epizy.com','epiz_33908504','ePDt7kxaWvyx','epiz_33908504_aziz');
 if(isset($_POST['submit'])){
     $user_email=$_POST['user_email'];
     $user_password=$_POST['user_password'];

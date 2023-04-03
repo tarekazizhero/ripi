@@ -32,36 +32,30 @@
     copyright @2023 by-RIPI
   </div>
 
- 
-</footer>
-
-<footer>
-
-
- <div class="address">
-  <p>Institute Address:</p>
-  <p>বড় মসজিদের বিপরীত পার্শ্বে,</p>
+   
+  <!-- <div class="address">
+  <p>Communication:</p>
+   <p>বড় মসজিদের বিপরীত পার্শ্বে,</p>
   <p>(ডাবতলী মোড় থেকে ১০০ গজ দক্ষিণে),</p>
   <p>রাণীশংকৈল, ঠাকুরগাঁও।</p>
-  <p>Ranisankail, Thakurgaon-5120</p>
+  <p>Ranisankail, Thakurgaon-5120</p> 
   <p>contact:01737110188,01737032725</p>
-  <p>Email:ripipolytechnic@gmail.com</p>
+  <p><a href="mailto:ripipolytechnic@gmail.com">ripipolytechnic@gmail.com</a></p>
 
- </div>
+ </div> -->
 
   <div class="devloper">
     <p>Devloped By</p>
     <a href="https://www.facebook.com/tarek.aziz.925602"><i class="fa-brands fa-facebook"></i></a>
 
     <p>Md.Tarek Aziz</p>
-    <p>B.Sc.(Engg.) in CSE</p>
     
-    
-    <p>Contact:01521751029</p>
     
 </div>
 
 </footer>
+
+
 <!-- footer started -->
     
 </body>
